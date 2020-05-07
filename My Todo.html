@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mytodo.css">
+    <title>TODO APP</title>
+</head>
+<body onload="uptodo()">
+    <div class="container">
+        <br>
+        <h1>TODO APP</h1>                     <br><br><br>
+        <input type="text" value="" placeholder="New Task" id="myinput">
+        <button id="mybtn" onclick="addtolist()" >ADD</button>           <br><br>
+        <ul class="myul" id="tasks">
+            <li id="mylist"><span class="rmvbtn"></span></li>
+        </ul>
+    </div>
+</body>
+<script src="mytodo.js"></script>
+</html>
